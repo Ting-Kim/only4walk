@@ -35,7 +35,7 @@ class SimpleHoverMap extends Component {
     return (
       <div>
         <Head>
-          <title>Next.js & google-map-react</title>
+          <title>Only 4 walk</title>
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"
