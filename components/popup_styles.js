@@ -25,5 +25,13 @@ const popup_inner = {
   fontSize: '20px',
 };
 
-//const popup_inner = {};
-export {popup, popup_inner};
+const popup_button = {
+  float:'right',
+  display:'inline-block',
+  padding:'2px 5px',
+  //fontWeight: 700,
+  textShadow: '0 1px 0 #fff', 
+  fontSize: '1.3rem',
+
+}
+export {popup, popup_inner, popup_button};
