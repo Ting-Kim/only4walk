@@ -21,7 +21,7 @@ const popup_inner = {
   bottom: '25%',
   margin: 'auto',
   borderRadius: '20px',
-  background: 'rgba(255, 255, 255, .8)',
+  background: 'rgba(255, 255, 255, 1)',
   fontSize: 20,
 
 };
