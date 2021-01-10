@@ -14,16 +14,20 @@ const popup = {
 };
 
 const popup_inner = {
-  position: "absolute",
-  left: "25%",
-  right: "25%",
-  top: "25%",
-  bottom: "25%",
+  ...popup,
+  position: "fixed",
+  width: "50vw",
+  height: "70vh",
+  top: "25vh",
+  left: "-75vw",
+  right: "25vw",
+  bottom: "25vh",
   margin: "auto",
   borderRadius: "20px",
   background: "rgba(255, 255, 255, 1)",
   fontSize: "20px",
   padding: "auto",
+  zIndex: 2,
 };
 
 const popup_button = {
@@ -33,7 +37,7 @@ const popup_button = {
   //fontWeight: 700,
   textShadow: "0 1px 0 #fff",
   fontSize: "1.3rem",
-  background: 'none',
-  border: 'none',
+  background: "none",
+  border: "none",
 };
 export { popup, popup_inner, popup_button };
