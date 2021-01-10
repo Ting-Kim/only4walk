@@ -9,6 +9,7 @@ export default class Popup extends React.Component {
         <div className='popup_inner' style={popup_inner}>
           <h2>{this.props.text}</h2>
           <a href='https://www.youtube.com/' target='_blank'>youtube link</a>
+          <button onClick={this.props.closePopup}>CLOSE</button>
         </div>
       </div>
     );

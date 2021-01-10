@@ -17,21 +17,20 @@ export default class MyGreatPlaceWithHover extends React.PureComponent {
     const style = this.props.$hover ? greatPlaceStyleHover : greatPlaceStyle;
     
     return (
+      <div>
        <div style={style}  onClick={this.togglePopup.bind(this)}>
           {this.props.text}
           {' '}
           {'호수공원공원'}
-          {this.state.showPopup ?  
-          <Popup  
-            text='popup!'  
-            closePopup={this.togglePopup.bind(this)}  
-            
-            
-          />  
-          : null  
-          }  
        </div>
-
+      {this.state.showPopup ?  
+        <Popup  
+          text='popup!'  
+          closePopup={this.togglePopup.bind(this)}  
+        />  
+        : null  
+        }  
+        </div>
     );
   }
 }
