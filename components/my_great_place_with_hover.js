@@ -23,7 +23,7 @@ export default class MyGreatPlaceWithHover extends React.PureComponent {
           {123}
           {this.state.showPopup ?  
           <Popup  
-            text='Click "Close Button" to hide popup!'  
+            text='popup!'  
             closePopup={this.togglePopup.bind(this)}  
             
             

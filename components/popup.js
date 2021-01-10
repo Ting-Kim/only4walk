@@ -1,12 +1,14 @@
 import React from 'react';
-//import './style.css';
-
+import {popup, popup_inner} from './popup_styles.js';
+//
+//
 export default class Popup extends React.Component {
   render() {
     return (
-      <div className='popup'>
-        <div className='popup_inner'>
-          <h1>{this.props.text}</h1>
+      <div className='popup' style={popup}>
+        <div className='popup_inner' style={popup_inner}>
+          <h2>{this.props.text}</h2>
+          <a href='https://www.youtube.com/' target='_blank'>youtube link</a>
         </div>
       </div>
     );
