@@ -17,7 +17,7 @@ const greatPlaceStyle = {
   color: '#3f51b5',
   fontSize: 10,
   fontWeight: 'bold',
-  // padding: 4,
+  //padding: 4,
   cursor: 'pointer',
 };
 

@@ -1,15 +1,15 @@
 const popup = {
   position: 'fixed',
   margin: 'auto',
-  width: '100vw',
-  height: '100vh',
+  width: '150vw',
+  height: '150vh',
   //left: '-50',
   //top: '-50',
-  top: '50vh',
-  //left: '-50vw',
-  right: '50vw',
-  bottom: '50vh',
-
+  top: '75vh',
+  left: '-75vw',
+  right: '75vw',
+  bottom: '75vh',
+  zIndex: 1,
   backgroundColor: 'rgba(0, 0, 0, 0.5)',
 };
 
@@ -22,8 +22,7 @@ const popup_inner = {
   margin: 'auto',
   borderRadius: '20px',
   background: 'rgba(255, 255, 255, 1)',
-  fontSize: 20,
-
+  fontSize: '20px',
 };
 
 //const popup_inner = {};

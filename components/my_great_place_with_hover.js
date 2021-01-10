@@ -20,7 +20,7 @@ export default class MyGreatPlaceWithHover extends React.PureComponent {
        <div style={style}  onClick={this.togglePopup.bind(this)}>
           {this.props.text}
           {' '}
-          {123}
+          {'호수공원공원'}
           {this.state.showPopup ?  
           <Popup  
             text='popup!'  
