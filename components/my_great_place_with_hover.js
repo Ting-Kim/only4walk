@@ -1,6 +1,6 @@
 import React from 'react';
 import Popup from './popup';
-import {greatPlaceStyle, greatPlaceStyleHover} from './my_great_place_with_hover_styles.js';
+import {greatPlaceStyle, greatPlaceStyleHover, markerStyleHover} from './my_great_place_with_hover_styles.js';
 
 export default class MyGreatPlaceWithHover extends React.PureComponent {
   constructor(props){  
@@ -19,8 +19,9 @@ export default class MyGreatPlaceWithHover extends React.PureComponent {
     return (
       <div>
         {this.props.$hover ?
-        <div>
+        <div style={markerStyleHover}>
           {this.props.text}
+          호수공원공원dasdasdasdsadasd
         </div>
         : null
         }
