@@ -28,10 +28,12 @@ const popup_inner = {
 
 const popup_button = {
   float: "right",
-  display: "inline-block",
+  display: "block",
   padding: "2px 5px",
   //fontWeight: 700,
   textShadow: "0 1px 0 #fff",
   fontSize: "1.3rem",
+  background: 'none',
+  border: 'none',
 };
 export { popup, popup_inner, popup_button };
