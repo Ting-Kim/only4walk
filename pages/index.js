@@ -6,12 +6,13 @@ import { GMAPS_API_KEY } from '../config';
 import MyGreatPlaceWithHover from '../components/my_great_place_with_hover';
 import { K_SIZE } from '../components/my_great_place_with_hover_styles';
 
-const mapCenter = {lat: 38.91131141655464, lng: -77.04375138092037};
+const mapCenter = {lat: 36.585970, lng: 127.860003};
 const marker = ({id}) => ( <div key={id} style={markerStyle}>
 														{id}
 													</div> )
 
 const markers = ( locations, handler ) => {
+  
   return locations.map(location => (
     <MyGreatPlaceWithHover
       text={location.id}
@@ -24,7 +25,7 @@ const markers = ( locations, handler ) => {
 class SimpleHoverMap extends Component {
   static defaultProps = {
     center: mapCenter,
-    zoom: 16
+    zoom: 8
   };
 
   render() {
