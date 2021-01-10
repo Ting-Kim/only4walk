@@ -1,5 +1,5 @@
 // const K_SIZE = 40;
-const K_SIZE = 20
+const K_SIZE = 30
 
 const greatPlaceStyle = {
   // initially any map object has left top corner at lat lng coordinates
@@ -12,13 +12,13 @@ const greatPlaceStyle = {
 
   border: '1px solid #f44336',
   borderRadius: K_SIZE,
-  backgroundColor: 'white',
+  backgroundColor: 'rgba( 255, 255, 255, 0 )',
   textAlign: 'center',
   color: '#3f51b5',
-  // fontSize: 16,
+  fontSize: 10,
   fontWeight: 'bold',
   // padding: 4,
-  cursor: 'pointer'
+  cursor: 'pointer',
 };
 
 const greatPlaceStyleHover = {
