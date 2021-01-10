@@ -23,6 +23,7 @@ const popup_inner = {
   borderRadius: '20px',
   background: 'rgba(255, 255, 255, 1)',
   fontSize: '20px',
+  padding: 'auto',
 };
 
 const popup_button = {
