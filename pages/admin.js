@@ -1,5 +1,5 @@
 //const GMAPS_API_KEY = process.env.KEY;
-const alength = typeof(process.env.KEY);
+const alength = typeof(process.env.NEXT_PUBLIC_KEY);
 export default function Admin() {
   return (
     <div>
