@@ -1,9 +1,10 @@
-const GMAPS_API_KEY = `GMAPS_API_KEY`
+const GMAPS_API_KEY = require(GMAPS_API_KEY)
 export default function Admin(){
     return(
     <div>
     <p>This is the admin page</p>
     <p>123</p>
+    <p>{GMAPS_API_KEY}</p>
     </div>
     );
     }
