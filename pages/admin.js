@@ -1,5 +1,5 @@
 const GMAPS_API_KEY = process.env.KEY;
-const alength = GMAPS_API_KEY.length;
+const alength = typeof(GMAPS_API_KEY);
 export default function Admin() {
   return (
     <div>
