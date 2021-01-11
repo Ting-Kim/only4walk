@@ -2,12 +2,13 @@ import React, { Component } from "react";
 import Head from "next/head";
 import GoogleMapReact from "google-map-react";
 import { locations } from "../locations";
-import { GMAPS_API_KEY } from "../config";
+//import { GMAPS_API_KEY } from "../config";
 import MyGreatPlaceWithHover from "../components/my_great_place_with_hover";
 import Popup from "../components/popup";
-
 import { K_SIZE } from "../components/my_great_place_with_hover_styles";
 
+
+const GMAPS_API_KEY = `GMAPS_API_KEY`
 const mapCenter = { lat: 36.58597, lng: 127.860003 };
 const marker = ({ id }) => (
   <div key={id} style={markerStyle}>
