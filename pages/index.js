@@ -8,7 +8,9 @@ import { K_SIZE } from "../components/my_great_place_with_hover_styles";
 
 
 //import { GMAPS_API_KEY } from "../config";
-const GMAPS_API_KEY = require('GMAPS_API_KEY');
+const GMAPS_API_KEY = process.env.GMAPS_API_KEY;
+
+
 const mapCenter = { lat: 36.58597, lng: 127.860003 };
 const marker = ({ id }) => (
   <div key={id} style={markerStyle}>
