@@ -4,6 +4,7 @@ export default function Admin(){
     <div>
     <p>This is the admin page</p>
     <p>{GMAPS_API_KEY}</p>
+    <p>123</p>
     </div>
     );
     }
