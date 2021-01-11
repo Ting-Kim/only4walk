@@ -5,6 +5,10 @@ import { locations } from "../locations";
 import MyGreatPlaceWithHover from "../components/my_great_place_with_hover";
 import { K_SIZE } from "../components/my_great_place_with_hover_styles";
 
+import { popup } from "../components/popup_styles";
+import Popup from "../components/popup";
+
+//import { GMAPS_API_KEY } from "../config";
 const GMAPS_API_KEY = process.env.NEXT_PUBLIC_KEY;
 
 const mapCenter = { lat: 36.58597, lng: 127.860003 };
@@ -46,9 +50,11 @@ class SimpleHoverMap extends Component {
             defaultCenter={this.props.center}
             defaultZoom={this.props.zoom}
             hoverDistance={K_SIZE / 2}
+            //draggable={false}
           >
             {markers(locations)}
           </GoogleMapReact>
+
           <style jsx global>{`
             body {
               margin: 0;

@@ -25,7 +25,7 @@ export default class MyGreatPlaceWithHover extends React.PureComponent {
         {this.props.$hover ? (
           <div style={markerStyleHover}>
             {this.props.text}
-            호수공원공원dasdasdasdsadasd
+            dasdasdasdsadasd
           </div>
         ) : null}
         <div style={style} onClick={this.togglePopup.bind(this)}></div>

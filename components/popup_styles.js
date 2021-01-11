@@ -14,10 +14,12 @@ const popup = {
 };
 
 const popup_inner = {
-  ...popup,
+  //...popup,
   position: "fixed",
   width: "50vw",
+  minWidth: "500px",
   height: "70vh",
+  minHeight: "500px",
   top: "25vh",
   left: "-75vw",
   right: "25vw",
@@ -40,4 +42,5 @@ const popup_button = {
   background: "none",
   border: "none",
 };
+
 export { popup, popup_inner, popup_button };
