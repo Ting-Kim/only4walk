@@ -19,9 +19,7 @@ export default class Popup extends React.Component {
           <h2>{this.props.text}</h2>
           <p>123123</p>
           <img
-            class="fit-picture"
             src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg"
-            alt="Grapefruit slice atop a pile of other slices"
           ></img>
           <a href="https://www.youtube.com/" target="_blank">
             youtube link
